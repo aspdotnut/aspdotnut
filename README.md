@@ -1,5 +1,5 @@
 ```py
-from college import clinical-depression
+from college import clinical-depression()
 
 import os
 def clear():
@@ -15,7 +15,7 @@ while True:
 
   if choice == "1":
     clear()
-    input("\n\n\nPress ENTER to continue: ")
+    input(f"Name: Nitwit\nAge: Old enough to bang ur mom\nJob: Student slave\nHobbies: {clinical-depression()}\nLanguages: Dutch, English, Python, Javascript, Html, Php, peepee poopoo\n\n\nPress ENTER to continue: ")
 
   elif choice == "2":
     clear()
