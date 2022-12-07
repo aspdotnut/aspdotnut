@@ -1,5 +1,4 @@
-```py
-from college import clinical-depression()
+from college import clinical_depression
 
 import os
 def clear():
@@ -7,15 +6,16 @@ def clear():
     os.system('clear')
   else:
     os.system('cls')
+  
 
 while True:
   clear()
   choice = "null"
-  choice = input("Hi there, I'm NitWitted, a lonely depressed fuckwit that doesn't know common sense and limits to insanity.\n\nPlease choose a mode!\n1. Personal info\n2. why?\n3. Jesus fucking god why would you do something like this?\n\n\nYour choice: ")
+  choice = input("Hi there, I'm NitWitted, a lonely depressed fuckwit that doesn't know common sense and limits to insanity.\n\nPlease choose a mode! (type 'EXIT' to exit)\n1. Personal info\n2. why?\n3. Jesus fucking god why would you do something like this?\n\n\nYour choice: ")
 
   if choice == "1":
     clear()
-    input(f"Name: Nitwit\nAge: Old enough to bang ur mom\nJob: Student slave\nHobbies: {clinical-depression()}\nLanguages: Dutch, English, Python, Javascript, Html, Php, peepee poopoo\n\n\nPress ENTER to continue: ")
+    input(f"Name: Nitwit\nAge: Old enough to bang ur mom\nJob: Student slave\nHobbies: {clinical_depression()}\nLanguages: Dutch, English, Python, Javascript, Html, Php, peepee poopoo\n\n\nPress ENTER to continue: ")
 
   elif choice == "2":
     clear()
@@ -25,7 +25,7 @@ while True:
     clear()
     input("I have serious brain damage\n\n:)\n\n\nPress ENTER to continue: ")
 
-  elif choice == "exit":
+  elif choice.lower() == "exit":
     clear()
     break
 
