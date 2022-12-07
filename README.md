@@ -1,3 +1,4 @@
+```py
 from college import clinical_depression
 
 import os
@@ -32,3 +33,4 @@ while True:
   else:
     clear()
     input("You put in an invalid response, I deez nutsed ur mom, we are not the same. [insert meme here]\n\n\nPress ENTER to continue: ")
+```
