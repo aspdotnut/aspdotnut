@@ -9,7 +9,7 @@ def clear():
     os.system('cls')
 
 def clinical_depression():
-  hobby = "I wish to lay in bed and cry"
+  hobby = "Crying in a corner"
   return hobby
 
 if __name__ == "__main__":
