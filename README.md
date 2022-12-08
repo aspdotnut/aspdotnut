@@ -1,6 +1,10 @@
 ```py
 if __name__ == "__main__":
   from college import clinical_depression
+else:
+  def clinical_depression():
+    hobby = "Crying in a corner"
+    return hobby
 
 import os
 def clear():
