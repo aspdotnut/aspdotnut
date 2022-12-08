@@ -11,6 +11,6 @@ def clear():
 def clinical_depression():
   hobby = "I wish to lay in bed and cry"
   return hobby
-  
+
 if __name__ == "__main__":
   brainrot()
