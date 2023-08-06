@@ -42,7 +42,7 @@ while (true)
                               "Age: Old enough to bang your mom" + Environment.NewLine +
                               "Job: Student slave" + Environment.NewLine +
                               "Hobbies: Crying myself to sleep" + Environment.NewLine +
-                              "Languages: Dutch, English, Python, Javascript, Html, Php, peepee poopoo" + Environment.NewLine +
+                              "Languages: Dutch, English, Python, Javascript, HTML, CSS, PHP, C#, XAML, peepee poopoo" + Environment.NewLine +
                               Environment.NewLine);
             
             Console.WriteLine("Press any key to continue...");
